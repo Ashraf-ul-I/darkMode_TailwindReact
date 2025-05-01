@@ -37,10 +37,33 @@ function App() {
           We are learning gradients
         </div>
       </div>
-
+    
+      <div>
+        <h2 className="text-2xl font-bold mt-4 ml-4">Responsive Design</h2>
+        <div className="flex flex-wrap justify-center items-center">
+          <div className="bg-green-500/30 dark:bg-green-700 p-4 m-4 rounded-lg flex-1 min-w-[200px]">
+            Responsive Item 1
+          </div>
+          <div className="bg-yellow-500/30 dark:bg-yellow-700 p-4 m-4 rounded-lg flex-1 min-w-[200px]">
+            Responsive Item 2
+          </div>
+        </div>  
+      </div>
+      <div>
+        <h2 className="text-2xl font-bold mt-4 ml-4">Hover Effects</h2>
+        <div className="flex flex-wrap justify-center items-center">
+          <div className="bg-blue-500/30 dark:bg-blue-700 p-4 m-4 rounded-lg flex-1 min-w-[200px] hover:bg-blue-600 dark:hover:bg-blue-800 transition duration-300">
+            Hover Effect 1
+          </div>
+          <div className="bg-purple-500/30 dark:bg-purple-700 p-4 m-4 rounded-lg flex-1 min-w-[200px] hover:bg-purple-600 dark:hover:bg-purple-800 transition duration-300">
+            Hover Effect 2
+          </div>
+        </div>
+      </div>
       
     </div>
   );
 }
 
 export default App;
+
