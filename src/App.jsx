@@ -38,14 +38,7 @@ function App() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 h-20 p-4 bg-blue-200 dark:bg-blue-800 sm:bg-red-300 md:bg-green-300 lg:bg-yellow-300">
-        <div className="bg-purple-500/50 dark:bg-purple-700 col-span-2 rounded-lg p-2 text-white">
-          Grid item 1
-        </div>
-        <div className="bg-red-500/50 dark:bg-red-700 rounded-lg p-2 text-white">
-          Grid item 2
-        </div>
-      </div>
+      
     </div>
   );
 }
